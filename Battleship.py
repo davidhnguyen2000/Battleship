@@ -1,7 +1,10 @@
 from __future__ import print_function
 import random
+import Gameboard
 BATTLESHIP_CHAR = "@"
 OPEN_SPACE_CHAR = "*"
+
+# GAMEBOARD = Gameboard("player gameboard", 10)
 
 def makeGameboard(gameBoardSize):
     "This creates the game board"
