@@ -1,6 +1,7 @@
 from __future__ import print_function
+import importlib
 import random
-import Gameboard
+importlib.import_module("Gameboard")
 BATTLESHIP_CHAR = "@"
 OPEN_SPACE_CHAR = "*"
 
